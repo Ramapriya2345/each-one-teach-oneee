@@ -1,0 +1,70 @@
+/* ProfilePage.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    flex-direction: column;
+    gap: 20px; /* Spacing between cards */
+  }
+  
+  .grid {
+    display: grid;
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .card {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the card */
+    background-color: #fff; /* Background color */
+    transition: transform 0.3s; /* Smooth hover effect */
+    gap: 2;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .text-center {
+    text-align: center; /* Center text */
+  }
+  
+  .mt-4 {
+    margin-top: 1rem; /* Margin top */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem; /* Margin bottom */
+  }
+  
+  .flex {
+    display: flex; /* Flex container */
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap; /* Allow flex items to wrap */
+  }
+  
+  .space-y-4 > div {
+    margin-bottom: 16px; /* Vertical spacing between elements */
+  }
+  
+  button {
+    margin: 0 auto; /* Center button horizontally */
+  }
+  
+  .progress {
+    margin-top: 10px; /* Space above progress bars */
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    }
+  }
+.buttons{
+  flex-direction: row;
+  gap: 8px;
+}

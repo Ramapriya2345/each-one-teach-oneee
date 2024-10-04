@@ -1,0 +1,27 @@
+.custom-calendar {
+    font-size: 0.8rem; /* Reduce the font size */
+    width: 200px; /* Set a specific width */
+  }
+  
+  .custom-calendar .react-calendar {
+    width: 100%; /* Make sure it fills the parent width */
+  }
+  
+  /* Adjusting individual calendar elements */
+  .custom-calendar .react-calendar__month-view__days {
+    height: 20px; /* Reduce height of day cells */
+  }
+  
+  .custom-calendar .react-calendar__tile {
+    padding: 5px; /* Reduce tile padding */
+  }
+  
+  .custom-calendar .react-calendar__tile--active {
+    background: #3b82f6; /* Example active background color */
+    color: white; /* Example active text color */
+  }
+  
+  .custom-calendar .react-calendar__tile--now {
+    background: #f3f4f6; /* Example today's date background color */
+  }
+  

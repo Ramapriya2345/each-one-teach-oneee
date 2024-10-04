@@ -1,0 +1,197 @@
+/* styles/style.css */
+body {
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  header {
+    background-color: #4b5563; /* Darker background for the header */
+    color: white; /* White text in the header */
+  }
+  
+  .video-area {
+    border: 1px solid #ccc; /* Border for the video area */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .circular-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circular-button:hover {
+    background-color: #e5e5e5; /* Hover effect */
+  }
+  
+  input {
+    border: 1px solid #ccc; /* Input border */
+  }
+  
+  input:focus {
+    border-color: #4b5563; /* Focused input border color */
+  }
+  
+  canvas {
+    background-color: #fff; /* White background for the canvas */
+    border: 1px solid #ccc; /* Border for the canvas */
+  }
+  
+  .tab-list {
+    margin-bottom: 16px;
+  }
+  
+  .tab-content {
+    padding: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .separator {
+    height: 1px;
+    background-color: #ccc; /* Separator color */
+  }
+  
+  .chat-message {
+    margin-bottom: 8px;
+  }
+/* styles/style.css */
+body {
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  header {
+    background-color: #4b5563; /* Darker background for the header */
+    color: white; /* White text in the header */
+  }
+  
+  .video-area {
+    border: 1px solid #ccc; /* Border for the video area */
+    position: relative;
+    overflow: hidden;
+    height: 500px; /* Increased height for a laptop screen effect */
+  }
+  
+  .circular-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc ;
+  }
+  
+  .circular-button:hover {
+    background-color: #e5e5e5; /* Hover effect */
+  }
+  
+  input {
+    border: 1px solid #ccc; /* Input border */
+  }
+  
+  input:focus {
+    border-color: #4b5563; /* Focused input border color */
+  }
+  
+  canvas {
+    background-color: #fff; /* White background for the canvas */
+    border: 1px solid #ccc; /* Border for the canvas */
+  }
+  
+  .tab-list {
+    margin-bottom: 16px;
+  }
+  
+  .tab-content {
+    padding: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .separator {
+    height: 1px;
+    background-color: #ccc; /* Separator color */
+  }
+  
+  .chat-message {
+    margin-bottom: 8px;
+  }
+    /* styles/style.css */
+body {
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  header {
+    background-color: #4b5563; /* Darker background for the header */
+    color: white; /* White text in the header */
+  }
+  
+  .video-area {
+    border: 1px solid #ccc; /* Border for the video area */
+    position: relative;
+    overflow: hidden;
+    height: 500px; /* Increased height for a laptop screen effect */
+  }
+  
+  .circular-button {
+    border-radius: 50%;
+    width: 50px; /* Increased size */
+    height: 50px; /* Increased size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+  }
+  
+  .circular-button:hover {
+    background-color: #e5e5e5; /* Hover effect */
+  }
+  
+  input {
+    border: 1px solid #ccc; /* Input border */
+  }
+  
+  input:focus {
+    border-color: #4b5563; /* Focused input border color */
+  }
+  
+  canvas {
+    background-color: #fff; /* White background for the canvas */
+    border: 1px solid #ccc; /* Border for the canvas */
+  }
+  
+  .tab-list {
+    margin-bottom: 16px;
+  }
+  
+  .tab-content {
+    padding: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .separator {
+    height: 1px;
+    background-color: #ccc; /* Separator color */
+  }
+  
+  .chat-message {
+    margin-bottom: 8px;
+  }
+  
